@@ -9,6 +9,5 @@ function nameToAttributes(arr) {
   return arr.map(function(fullName) {
     let spaceIndex = fullName.indexOf(" ");
     let newArr = [];
-    newArr.push(Object.assign({}, {firstName: ${fullName.slice(0, spaceIndex)}, {lastName: ${fullName.slice(spaceIndex+1)}}));
-  }})
+  })
 }
