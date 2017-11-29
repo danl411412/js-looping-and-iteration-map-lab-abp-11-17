@@ -13,3 +13,9 @@ function nameToAttributes(arr) {
   console.log(newArr);
   return newArr;
 }
+
+function attributesToPhrase(arr) {
+  return arr.map(function(driver) {
+    return `${driver.name} is from ${driver.hometown}`;
+  })
+}
