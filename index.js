@@ -6,5 +6,8 @@ function lowerCaseDrivers(arr) {
 }
 
 function nameToAttributes(arr) {
-
+  let newArr = arr.map(function(fullName) {
+    let spaceIndex = fullName.indexOf(" ");
+    Object.assign({}, firstName: fullName.slice(0, spaceIndex), lastName:slice(spaceIndex+1);
+  })
 }
